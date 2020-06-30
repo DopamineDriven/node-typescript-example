@@ -1,13 +1,13 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "tutorial",
   "main": "index.ts",
   "engines": {
     "node": "14.4.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/index.ts"
   },
   "keywords": [],
   "author": "Andrew Ross",
