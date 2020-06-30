@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "target": "ES5",
+        "target": "ES6",
         "lib": [
             "DOM",
             "DOM.Iterable",
@@ -10,7 +10,10 @@
         "allowSyntheticDefaultImports": true,
         "strict": true,
         "forceConsistentCasingInFileNames": true,
-        "module": "CommonJS",
-        
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "rootDir": "./src",
+        "outDir": "./_src",
+        "experimentalDecorators": true
     }
 }
